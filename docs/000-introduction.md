@@ -37,6 +37,17 @@ scoop install goreleaser
 > Check the [tap source](https://github.com/goreleaser/homebrew-tap) for
 > more details.
 
+### Using Docker
+
+```sh
+docker run --rm -it \
+  -v /var/run/docker.sock:/var/run/docker.sock \
+  -v $PWD:/go/src/github.com/goreleaser/goreleaser \
+  -w /go/src/github.com/goreleaser/goreleaser \
+  goreleaser/goreleaser \
+  goreleaser release --help
+```
+
 ## Manually
 
 Download your preferred flavor from the [releases page](https://github.com/goreleaser/goreleaser/releases/latest) and install
