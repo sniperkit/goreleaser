@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/apex/log"
-	"github.com/goreleaser/goreleaser/config"
+	"github.com/sniperkit/goreleaser/config"
 )
 
 type target struct {
@@ -62,7 +62,7 @@ func allBuildTargets(build config.Build) (targets []target) {
 }
 
 // TODO: this could be improved by using a map
-// https://github.com/goreleaser/goreleaser/pull/522#discussion_r164245014
+// https://github.com/sniperkit/goreleaser/pull/522#discussion_r164245014
 func ignored(build config.Build, target target) bool {
 	for _, ig := range build.Ignore {
 		if ig.Goos != "" && ig.Goos != target.os {

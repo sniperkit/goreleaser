@@ -12,9 +12,9 @@ import (
 	"github.com/apex/log"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/goreleaser/goreleaser/checksum"
-	"github.com/goreleaser/goreleaser/context"
-	"github.com/goreleaser/goreleaser/internal/artifact"
+	"github.com/sniperkit/goreleaser/checksum"
+	"github.com/sniperkit/goreleaser/context"
+	"github.com/sniperkit/goreleaser/internal/artifact"
 )
 
 // Pipe for checksums

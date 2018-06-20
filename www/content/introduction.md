@@ -4,7 +4,7 @@ weight: 1
 menu: true
 ---
 
-[GoReleaser](https://github.com/goreleaser/goreleaser) is a release automation
+[GoReleaser](https://github.com/sniperkit/goreleaser) is a release automation
 tool for Go projects, the goal is to simplify the build, release and
 publish steps while providing variant customization options for all steps.
 
@@ -41,7 +41,7 @@ scoop install goreleaser
 
 ## Manually
 
-Download your preferred flavor from the [releases page](https://github.com/goreleaser/goreleaser/releases/latest) and install
+Download your preferred flavor from the [releases page](https://github.com/sniperkit/goreleaser/releases/latest) and install
 manually.
 
 ### Using go get
@@ -49,8 +49,8 @@ manually.
 Note: this method requires Go 1.10+.
 
 ```console
-$ go get -d github.com/goreleaser/goreleaser
-$ cd $GOPATH/src/github.com/goreleaser/goreleaser
+$ go get -d github.com/sniperkit/goreleaser
+$ cd $GOPATH/src/github.com/sniperkit/goreleaser
 $ dep ensure -vendor-only
 $ make setup build
 ```

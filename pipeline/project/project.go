@@ -1,7 +1,7 @@
 // Package project sets "high level" defaults related to the project.
 package project
 
-import "github.com/goreleaser/goreleaser/context"
+import "github.com/sniperkit/goreleaser/context"
 
 // Pipe implemens defaulter to set the project name
 type Pipe struct{}

@@ -18,8 +18,8 @@ Prerequisites:
 Clone `goreleaser` from source into `$GOPATH`:
 
 ```sh
-$ go get -d github.com/goreleaser/goreleaser
-$ cd $GOPATH/src/github.com/goreleaser/goreleaser
+$ go get -d github.com/sniperkit/goreleaser
+$ cd $GOPATH/src/github.com/sniperkit/goreleaser
 ```
 
 Install the build and lint dependencies:

@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/apex/log"
-	"github.com/goreleaser/goreleaser/context"
-	"github.com/goreleaser/goreleaser/internal/git"
-	"github.com/goreleaser/goreleaser/pipeline"
 	"github.com/pkg/errors"
+	"github.com/sniperkit/goreleaser/context"
+	"github.com/sniperkit/goreleaser/internal/git"
+	"github.com/sniperkit/goreleaser/pipeline"
 )
 
 // Pipe for brew deployment

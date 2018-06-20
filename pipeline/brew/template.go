@@ -1,6 +1,6 @@
 package brew
 
-import "github.com/goreleaser/goreleaser/config"
+import "github.com/sniperkit/goreleaser/config"
 
 type templateData struct {
 	Name              string

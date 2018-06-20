@@ -13,11 +13,11 @@ import (
 	"golang.org/x/sync/errgroup"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/goreleaser/goreleaser/context"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/filenametemplate"
-	"github.com/goreleaser/goreleaser/internal/linux"
-	"github.com/goreleaser/goreleaser/pipeline"
+	"github.com/sniperkit/goreleaser/context"
+	"github.com/sniperkit/goreleaser/internal/artifact"
+	"github.com/sniperkit/goreleaser/internal/filenametemplate"
+	"github.com/sniperkit/goreleaser/internal/linux"
+	"github.com/sniperkit/goreleaser/pipeline"
 )
 
 // ErrNoSnapcraft is shown when snapcraft cannot be found in $PATH

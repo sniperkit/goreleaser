@@ -15,12 +15,12 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
 
-	builders "github.com/goreleaser/goreleaser/build"
-	"github.com/goreleaser/goreleaser/config"
-	"github.com/goreleaser/goreleaser/context"
+	builders "github.com/sniperkit/goreleaser/build"
+	"github.com/sniperkit/goreleaser/config"
+	"github.com/sniperkit/goreleaser/context"
 
 	// langs to init
-	_ "github.com/goreleaser/goreleaser/internal/builders/golang"
+	_ "github.com/sniperkit/goreleaser/internal/builders/golang"
 )
 
 // Pipe for build

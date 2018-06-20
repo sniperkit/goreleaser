@@ -5,7 +5,7 @@ hideFromIndex: true
 weight: 140
 ---
 
-Since [v0.31.0](https://github.com/goreleaser/goreleaser/releases/tag/v0.31.0),
+Since [v0.31.0](https://github.com/sniperkit/goreleaser/releases/tag/v0.31.0),
 GoReleaser supports building and pushing Docker images.
 
 ## How it works

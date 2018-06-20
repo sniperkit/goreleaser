@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/goreleaser/goreleaser/config"
-	"github.com/goreleaser/goreleaser/internal/git"
 	"github.com/pkg/errors"
+	"github.com/sniperkit/goreleaser/config"
+	"github.com/sniperkit/goreleaser/internal/git"
 )
 
 // remoteRepo gets the repo name from the Git config.

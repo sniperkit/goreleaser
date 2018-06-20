@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/goreleaser/goreleaser/config"
-	"github.com/goreleaser/goreleaser/internal/artifact"
+	"github.com/sniperkit/goreleaser/config"
+	"github.com/sniperkit/goreleaser/internal/artifact"
 )
 
 // GitInfo includes tags and diffs used in some point

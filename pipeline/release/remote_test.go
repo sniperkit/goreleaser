@@ -3,7 +3,7 @@ package release
 import (
 	"testing"
 
-	"github.com/goreleaser/goreleaser/internal/testlib"
+	"github.com/sniperkit/goreleaser/internal/testlib"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -22,7 +22,7 @@ func TestExtractRepoFromURL(t *testing.T) {
 		"git@github.com:goreleaser/goreleaser.git",
 		"git@custom:goreleaser/goreleaser.git",
 		"git@custom:crazy/url/goreleaser/goreleaser.git",
-		"https://github.com/goreleaser/goreleaser.git",
+		"https://github.com/sniperkit/goreleaser.git",
 		"https://github.enterprise.com/goreleaser/goreleaser.git",
 		"https://github.enterprise.com/crazy/url/goreleaser/goreleaser.git",
 	} {

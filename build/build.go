@@ -4,8 +4,8 @@ package build
 import (
 	"sync"
 
-	"github.com/goreleaser/goreleaser/config"
-	"github.com/goreleaser/goreleaser/context"
+	"github.com/sniperkit/goreleaser/config"
+	"github.com/sniperkit/goreleaser/context"
 )
 
 var (

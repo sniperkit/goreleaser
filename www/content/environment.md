@@ -42,7 +42,7 @@ If none are set, they default to GitHub's public URLs.
 to another. If they are wrong, goreleaser will fail at some point, so, make
 sure they're right before opening an issue. See for example [#472][472].
 
-[472]: https://github.com/goreleaser/goreleaser/issues/472
+[472]: https://github.com/sniperkit/goreleaser/issues/472
 
 ## The dist folder
 

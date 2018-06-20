@@ -6,10 +6,10 @@ import (
 	"bufio"
 	"os"
 
-	"github.com/goreleaser/goreleaser/context"
-	"github.com/goreleaser/goreleaser/pipeline"
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/pkg/errors"
+	"github.com/sniperkit/goreleaser/context"
+	"github.com/sniperkit/goreleaser/pipeline"
 )
 
 // ErrMissingToken indicates an error when GITHUB_TOKEN is missing in the environment

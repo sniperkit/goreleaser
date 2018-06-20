@@ -6,8 +6,8 @@ import (
 	"bytes"
 	"text/template"
 
-	"github.com/goreleaser/goreleaser/context"
-	"github.com/goreleaser/goreleaser/internal/artifact"
+	"github.com/sniperkit/goreleaser/context"
+	"github.com/sniperkit/goreleaser/internal/artifact"
 )
 
 // Fields contains all accepted fields in the template string

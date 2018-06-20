@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/goreleaser/goreleaser/config"
+	"github.com/sniperkit/goreleaser/config"
 	"github.com/stretchr/testify/assert"
 )
 

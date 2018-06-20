@@ -11,9 +11,9 @@ import (
 	"strings"
 
 	"github.com/apex/log"
-	"github.com/goreleaser/goreleaser/context"
-	"github.com/goreleaser/goreleaser/internal/git"
-	"github.com/goreleaser/goreleaser/pipeline"
+	"github.com/sniperkit/goreleaser/context"
+	"github.com/sniperkit/goreleaser/internal/git"
+	"github.com/sniperkit/goreleaser/pipeline"
 )
 
 // ErrInvalidSortDirection happens when the sort order is invalid

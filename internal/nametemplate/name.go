@@ -6,7 +6,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/goreleaser/goreleaser/context"
+	"github.com/sniperkit/goreleaser/context"
 )
 
 // Apply applies the given name template using the context as source.

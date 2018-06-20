@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 
 	"github.com/apex/log"
-	"github.com/goreleaser/goreleaser/context"
+	"github.com/sniperkit/goreleaser/context"
 	yaml "gopkg.in/yaml.v2"
 )
 

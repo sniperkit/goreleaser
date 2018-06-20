@@ -17,12 +17,12 @@ import (
 	_ "github.com/goreleaser/nfpm/deb"
 	_ "github.com/goreleaser/nfpm/rpm"
 
-	"github.com/goreleaser/goreleaser/config"
-	"github.com/goreleaser/goreleaser/context"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/filenametemplate"
-	"github.com/goreleaser/goreleaser/internal/linux"
-	"github.com/goreleaser/goreleaser/pipeline"
+	"github.com/sniperkit/goreleaser/config"
+	"github.com/sniperkit/goreleaser/context"
+	"github.com/sniperkit/goreleaser/internal/artifact"
+	"github.com/sniperkit/goreleaser/internal/filenametemplate"
+	"github.com/sniperkit/goreleaser/internal/linux"
+	"github.com/sniperkit/goreleaser/pipeline"
 )
 
 const defaultNameTemplate = "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}"

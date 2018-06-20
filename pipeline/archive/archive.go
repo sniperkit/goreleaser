@@ -15,9 +15,9 @@ import (
 	"golang.org/x/sync/errgroup"
 
 	"github.com/goreleaser/archive"
-	"github.com/goreleaser/goreleaser/context"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/filenametemplate"
+	"github.com/sniperkit/goreleaser/context"
+	"github.com/sniperkit/goreleaser/internal/artifact"
+	"github.com/sniperkit/goreleaser/internal/filenametemplate"
 )
 
 const (

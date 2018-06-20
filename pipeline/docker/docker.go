@@ -15,11 +15,11 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/goreleaser/goreleaser/config"
-	"github.com/goreleaser/goreleaser/context"
-	"github.com/goreleaser/goreleaser/internal/artifact"
-	"github.com/goreleaser/goreleaser/internal/deprecate"
-	"github.com/goreleaser/goreleaser/pipeline"
+	"github.com/sniperkit/goreleaser/config"
+	"github.com/sniperkit/goreleaser/context"
+	"github.com/sniperkit/goreleaser/internal/artifact"
+	"github.com/sniperkit/goreleaser/internal/deprecate"
+	"github.com/sniperkit/goreleaser/pipeline"
 )
 
 // ErrNoDocker is shown when docker cannot be found in $PATH
